@@ -15,3 +15,25 @@ Route::get('/', function()
 {
 	return View::make('splash');
 });
+
+Route::get('/lorem', function()
+{
+	return View::make('lorem');
+});
+
+Route::post('/lorem', function()
+{
+	return "Lorem post route";
+});
+
+Route::get('/user', function()
+{
+	$input = Input::all();
+	print_r($input);
+	return View::make('user');
+});
+
+Route::post('/user', function()
+{
+	return "User post route";
+});
