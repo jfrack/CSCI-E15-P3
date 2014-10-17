@@ -18,22 +18,22 @@ Route::get('/', function()
 
 Route::get('/lorem', function()
 {
-	return View::make('lorem');
+	return View::make('lorem_get');
 });
 
 Route::post('/lorem', function()
 {
-	return "Lorem post route";
+	return View::make('lorem_post');
 });
 
 Route::get('/user', function()
 {
-	$input = Input::all();
-	print_r($input);
-	return View::make('user');
+	//$input = Input::all();
+	//echo Pre::render($input, '$input');
+	return View::make('user_get');
 });
 
 Route::post('/user', function()
 {
-	return "User post route";
+	return View::make('user_post');
 });
