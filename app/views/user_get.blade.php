@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-	<?php include('header.php'); ?>
+	@include('header')
 	<body>
 		<h1>Random User Generator</h1>
-		<?php //include('content_user.php'); ?>
+		@include('user_content')
 	</body>
 </html>

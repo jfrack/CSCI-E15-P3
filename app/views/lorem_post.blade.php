@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-	<?php include('..\app\views\header.php'); ?>
+	@include('header')
 	<body>
 		<h1>Lorem Ipsum Generator</h1>
-		<?php include('..\app\views\lorem_form.php'); ?>
-		<?php include('..\app\views\lorem_content.blade.php'); ?>
+		@include('lorem_form')
+		@include('lorem_content')
 	</body>
 </html>
