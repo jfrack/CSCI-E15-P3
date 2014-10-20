@@ -23,7 +23,10 @@ Route::get('/lorem', function()
 
 Route::post('/lorem', function()
 {
-	return View::make('lorem_post');
+	$parCnt = Input::get('parCnt');
+
+	return View::make('lorem_post')
+		->with('parCnt', $parCnt);
 });
 
 Route::get('/user', function()
