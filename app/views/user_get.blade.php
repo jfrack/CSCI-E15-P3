@@ -3,6 +3,6 @@
 	@include('header')
 	<body>
 		<h1>Random User Generator</h1>
-		@include('user_content')
+		@include('user_form')
 	</body>
 </html>
