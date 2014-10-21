@@ -5,5 +5,17 @@ body {
 }
 
 .indent {
-	padding: 5px 25px;
+	padding-left: 25px;
+}
+
+.lorem_box {
+    background-color: white;
+    border: 5px solid darkgray;
+    color: black;
+    font-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 50px;
+    width: 95%;
+    border-radius: 5%;
 }
