@@ -5,7 +5,7 @@
 	<!-- <input name="_token" type="hidden" value="foo"> -->
 	<div class="form-group">
 		<label for="usrCnt" class="control-label">How many users (1-99)?</label>
-		<input class="form-control" type="number" value="5" min="1" max="99" name="usrCnt"  value="5" id="usrCnt">
+		<input class="shadow form-control" type="number" value="5" min="1" max="99" name="usrCnt"  value="5" id="usrCnt">
 	</div><br>
 	<div class="form-group">
 		<h3>Options:</h3>

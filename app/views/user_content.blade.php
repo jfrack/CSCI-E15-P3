@@ -8,29 +8,29 @@ $faker = Faker\Factory::create();
 
 // generate data by accessing properties
 for ($i=0; $i<$usrCnt; $i++) {
-	echo "Name: " . $faker->name . "<html><br></html>";
+	echo "<html><h4>" . $faker->name . "</h4></html>";
 
-	if ($usrid_cb) {
-		echo "User ID: " . $faker->userName . "<html><br></html>";
+	if (isset($_POST['usrid_cb'])) {
+		echo "<html><strong>User ID:</strong> " . $faker->userName . "<br></html>";
 	}
 
-	if ($pswd_cb) {
-		echo "Password: " . $faker->password . "<html><br></html>";
+	if (isset($_POST['pswd_cb'])) {
+		echo "<html><strong>Password:</strong> " . $faker->password . "<br></html>";
 	}
 
-	if ($email_cb) {
-		echo "Email: " . $faker->email . "<html><br></html>";
+	if (isset($_POST['email_cb'])) {
+		echo "<html><strong>Email:</strong> " . $faker->email . "<br></html>";
 	}
 
-	if ($birth_cb) {
-		echo "Birthdate: " . $faker->dateTime()->format('m-d-Y') . "<html><br></html>";
+	if (isset($_POST['birth_cb'])) {
+		echo "<html><strong>Birthdate:</strong> " . $faker->dateTime()->format('m-d-Y') . "<br></html>";
 	}
 
-	if ($profile_cb) {
-		echo "Profile: " . $faker->text . "<html><br></html>";
+	if (isset($_POST['profile_cb'])) {
+		echo "<html><strong>Profile:</strong> <i>" . $faker->text . "</i><br></html>";
 	}
 
-	if ($secimg_cb) {
+	if (isset($_POST['secimg_cb'])) {
 		// images provided by http://lorempixel.com
 		$imgUrl = $faker->imageUrl($width = 160, $height = 120);
 		echo "<img src='$imgUrl' alt='Security Image' />" . "<html><br></html>";

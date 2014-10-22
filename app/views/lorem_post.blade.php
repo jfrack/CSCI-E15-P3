@@ -7,5 +7,6 @@
 	<div class="display_box">
 		@include('lorem_content')
 	</div>
+	<br>
 </body>
 </html>

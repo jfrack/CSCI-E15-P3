@@ -7,5 +7,6 @@
 	<div class="display_box">
 		@include('user_content')
 	</div>
+	<br>
 </body>
 </html>

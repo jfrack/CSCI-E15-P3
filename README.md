@@ -13,7 +13,8 @@ on pre-production websites.  The goal of the text is to be non-intrusive to the 
 their attention to the layout and functionality rather than the content of the site.
 
 * The Random User Generator creates fake user accounts than can be leveraged to initially seed databases and
-aid in website testing.  The tool yields a few options including birthdate, profile, and password generation.
+aid in website testing.  The tool yields a few options including user ID, password, email, birthdate,
+profile, and a security image.
 
 ## Demo
 
