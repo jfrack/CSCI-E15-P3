@@ -36,5 +36,8 @@ Route::get('/user', function()
 
 Route::post('/user', function()
 {
-	return View::make('user_post');
+	$usrCnt = Input::get('usrCnt');
+
+	return View::make('user_post')
+		->with('usrCnt', $usrCnt);
 });

@@ -33,5 +33,5 @@ No instructions needed for this project.
 * Bootstrap Theme: http://bootswatch.com/readable
 
 ###PHP Packages
-* LoremIpsum Generator: https://packagist.org/packages/badcow/lorem-ipsum
+* Lorem Ipsum Generator: https://packagist.org/packages/badcow/lorem-ipsum
 * Random User Generator: https://packagist.org/packages/fzaninotto/faker
