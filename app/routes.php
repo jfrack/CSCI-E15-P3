@@ -37,7 +37,19 @@ Route::get('/user', function()
 Route::post('/user', function()
 {
 	$usrCnt = Input::get('usrCnt');
+	$usrid_cb = Input::get('usrid_cb');
+	$pswd_cb = Input::get('pswd_cb');
+	$email_cb = Input::get('email_cb');
+	$birth_cb = Input::get('birth_cb');
+	$profile_cb = Input::get('profile_cb');
+	$secimg_cb = Input::get('secimg_cb');
 
 	return View::make('user_post')
-		->with('usrCnt', $usrCnt);
+		->with('usrCnt', $usrCnt)
+		->with('usrid_cb', $usrid_cb)
+		->with('pswd_cb', $pswd_cb)
+		->with('email_cb', $email_cb)
+		->with('birth_cb', $birth_cb)
+		->with('profile_cb', $profile_cb)
+		->with('secimg_cb', $secimg_cb);
 });
