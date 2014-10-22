@@ -31,8 +31,6 @@ Route::post('/lorem', function()
 
 Route::get('/user', function()
 {
-	//$input = Input::all();
-	//echo Pre::render($input, '$input');
 	return View::make('user_get');
 });
 
