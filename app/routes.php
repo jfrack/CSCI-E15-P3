@@ -18,26 +18,26 @@ Route::get('/', function()
 
 Route::get('/lorem', function()
 {
-	return View::make('lorem_get');
+	return View::make('lorem');
 });
 
 Route::post('/lorem', function()
 {
 	$parCnt = Input::get('parCnt');
 
-	return View::make('lorem_post')
+	return View::make('lorem')
 		->with('parCnt', $parCnt);
 });
 
 Route::get('/user', function()
 {
-	return View::make('user_get');
+	return View::make('user');
 });
 
 Route::post('/user', function()
 {
 	$usrCnt = Input::get('usrCnt');
 
-	return View::make('user_post')
+	return View::make('user')
 		->with('usrCnt', $usrCnt);
 });

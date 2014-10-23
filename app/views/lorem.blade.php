@@ -4,9 +4,11 @@
 <body>
 	<h1>Lorem Ipsum Generator</h1>
 	@include('lorem_form')
-	<div class="display_box">
-		@include('lorem_content')
-	</div>
+	@if ($_POST)
+		<div class="display_box">
+			@include('lorem_content')
+		</div>
+	@endif
 	<br>
 </body>
 </html>
