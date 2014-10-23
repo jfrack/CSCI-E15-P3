@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "899c95fcb02ce32ed913b75d1e5d583f",
+    "hash": "9bdd619fc9cdbee10a08907895f30048",
     "packages": [
         {
             "name": "badcow/lorem-ipsum",
@@ -1765,6 +1765,52 @@
             "description": "Symfony Translation Component",
             "homepage": "http://symfony.com",
             "time": "2014-09-23 05:25:11"
+        },
+        {
+            "name": "zeroclipboard/zeroclipboard",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zeroclipboard/zeroclipboard.git",
+                "reference": "a8fdd636b9c9b1efc7ba6ae8fc3ad09d9ca657cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zeroclipboard/zeroclipboard/zipball/a8fdd636b9c9b1efc7ba6ae8fc3ad09d9ca657cd",
+                "reference": "a8fdd636b9c9b1efc7ba6ae8fc3ad09d9ca657cd",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Rohan",
+                    "homepage": "http://jonrohan.me/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "James M. Greene",
+                    "email": "james.m.greene@gmail.com",
+                    "homepage": "http://jamesgreene.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The ZeroClipboard library provides an easy way to copy text to the clipboard using an invisible Adobe Flash movie and a JavaScript interface.",
+            "homepage": "http://zeroclipboard.org/",
+            "keywords": [
+                "clip",
+                "clipboard",
+                "clippy",
+                "copy",
+                "cut",
+                "flash",
+                "paste",
+                "zclip"
+            ],
+            "time": "2014-09-28 19:29:10"
         }
     ],
     "packages-dev": [],
@@ -1773,7 +1819,8 @@
     "stability-flags": {
         "paste/pre": 20,
         "badcow/lorem-ipsum": 20,
-        "fzaninotto/faker": 20
+        "fzaninotto/faker": 20,
+        "zeroclipboard/zeroclipboard": 20
     },
     "prefer-stable": false,
     "platform": [],

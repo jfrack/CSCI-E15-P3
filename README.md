@@ -17,10 +17,11 @@ aid in website testing.  The tool yields a few options including user ID, passwo
 profile, and a security image.
 
 ## Demo
-
+To be added...
 
 ## Details for teaching team
-No instructions needed for this project.
+Added "Copy to Clipboard" feature leveraging ZeroClipboard package.
+Code in views\lorem.blade.php and public\js\copyClip.js.
 
 ## Outside code and credits
 ###Frameworks
@@ -36,3 +37,4 @@ No instructions needed for this project.
 ###PHP Packages
 * Lorem Ipsum Generator: https://packagist.org/packages/badcow/lorem-ipsum
 * Random User Generator: https://packagist.org/packages/fzaninotto/faker
+* Copy to Clipboard Feature: https://packagist.org/packages/zeroclipboard/zeroclipboard
