@@ -11,6 +11,6 @@
 	<!-- Get Bootswatch theme from CDN -->
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/readable/bootstrap.min.css">
 	<!-- Get local CSS -->
-	<!-- <link rel="stylesheet" type="text/css" href="css\style.css"> -->
-	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css\style.css') }}">
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+	<link rel="stylesheet" type="text/css" href="{{ URL::asset('css/style.css') }}">
 </head>

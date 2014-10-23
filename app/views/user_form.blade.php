@@ -4,7 +4,7 @@
 <div class="form-group">
 	{{ Form::label('usrCnt', 'How many users (1-99)?', array('class' => 'control-label')) }}
 	<!-- use previous user input otherwise default to 5 users -->
-	<input class="shadow form-control" type="number" value=<?php echo isset($_POST['usrCnt']) ? $usrCnt : '5'; ?> min="1" max="99" name="usrCnt"  value="5" id="usrCnt">
+	<input class="shadow form-control" type="number" value=<?php echo isset($_POST['usrCnt']) ? $usrCnt : '5'; ?> min="1" max="99" name="usrCnt" id="usrCnt">
 </div><br>
 <div class="form-group">
 	<h3>Options:</h3>
