@@ -31,8 +31,11 @@ for ($i=0; $i<$usrCnt; $i++) {
 	}
 
 	if (isset($_POST['secimg_cb'])) {
-		// images provided by http://lorempixel.com
+		// Image generation provided by LoremPixel (http://lorempixel.com/)
 		$imgUrl = $faker->imageUrl($width = 160, $height = 120);
+		// added image randomizer otherwise same image was always returned
+		$categories = array('abstract', 'animals', 'nature', 'people', 'sports', 'technics');
+		$imgUrl .= $categories[rand(0, count($categories)-1)] . "/" . rand(0, 10);
 		echo "<img src='$imgUrl' alt='Security Image' />" . "<html><br></html>";
 	}
 
