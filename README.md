@@ -3,7 +3,7 @@
 ##Developer's Best Friend
 
 ## Live URL
-* http://p3.jarekfrackowiak.me/public
+* http://p3.jarekfrackowiak.me
 
 ## Description
 Project composes of two tools: Lorem Ipsum Generator and Random User Generator.
@@ -17,7 +17,7 @@ aid in website testing.  The tool yields a few options including user ID, passwo
 profile, and a security image.
 
 ## Demo
-Demo link to added...
+Demo link to be added...
 
 ## Details for teaching team
 Added "Copy to Clipboard" feature leveraging ZeroClipboard package.
