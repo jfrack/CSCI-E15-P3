@@ -14,8 +14,8 @@
 		</div>
 
 		<!-- include JS from ZeroClipboard package -->
-    	<!-- <script type="text/javascript" src="../vendor/zeroclipboard/zeroclipboard/dist/ZeroClipboard.js"></script> -->
-    	<script type="text/javascript" src={{ URL::to('../vendor/zeroclipboard/zeroclipboard/dist/ZeroClipboard.js') }}></script>
+    	<script type="text/javascript" src={{ URL::to('packages/zeroclipboard/zeroclipboard/dist/ZeroClipboard.js') }}></script>
+    	<!-- <script type="text/javascript" src={{ URL::to('js/ZeroClipboard.js') }}></script> -->
     	<!-- and also custom JS for the "Copy to Clipboard" button logic -->
     	<script type="text/javascript" src={{ URL::to('js/copy_clip.js') }}></script>
 	@endif
