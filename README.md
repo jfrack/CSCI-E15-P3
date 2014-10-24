@@ -17,11 +17,12 @@ aid in website testing.  The tool yields a few options including user ID, passwo
 profile, and a security image.
 
 ## Demo
-To be added...
+Demo link to added...
 
 ## Details for teaching team
 Added "Copy to Clipboard" feature leveraging ZeroClipboard package.
-Code in views\lorem.blade.php and public\js\copyClip.js.
+Code in views\lorem.blade.php and public\js\copy_clip.js.
+Site validates as HTML5.
 
 ## Outside code and credits
 ###Frameworks
