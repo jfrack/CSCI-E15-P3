@@ -1,7 +1,7 @@
 //console.log( 'From copy_clip.js:' );
 
-var clientEl = document.getElementById('copy-button');
-var client = new ZeroClipboard(clientEl);
+var copyButton = document.getElementById('copy-button');
+var client = new ZeroClipboard(copyButton);
 
 client.on( 'ready', function(readyEvent) {
    // alert( "ZeroClipboard SWF is ready!" );
@@ -12,10 +12,10 @@ client.on( 'ready', function(readyEvent) {
 	} );
 
 	client.on( 'aftercopy', function(event) {
-	// hide "Copy to Clipboard" button
-    //event.target.style.display = "none";
-    //alert("Copied text to clipboard: " + event.data['text/plain'] );
-    alert("Copied text to clipboard.");
+    // event.target.style.display = "none";
+    // alert("Copied text to clipboard: " + event.data['text/plain'] );
+    // change text on button once text clipped
+    event.target.value = "Text Copied";
 	} );
 } );
 

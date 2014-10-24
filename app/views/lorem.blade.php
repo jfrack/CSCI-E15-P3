@@ -5,7 +5,9 @@
 	<h1>Lorem Ipsum Generator</h1>
 	@include('lorem_form')
 	@if ($_POST)
-		<button class="btn btn-primary copy_button" id="copy-button" data-clipboard-target="clipboard-text">Copy to Clipboard</button>
+		<div class="col-xs-2 copy_button">
+			<input class="btn btn-primary btn-block" type="button" id="copy-button" data-clipboard-target="clipboard-text" value="Copy to Clipboard" />
+		</div>
 		<br><br>
 		<div class="display_box" id="clipboard-text">
 			@include('lorem_content')
