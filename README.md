@@ -17,7 +17,7 @@ aid in website testing.  The tool yields a few options including user ID, passwo
 profile, and a security image.
 
 ## Demo
-Demo link to be added...
+http://www.screencast.com/t/cOmB4OlwQJ
 
 ## Details for teaching team
 Added "Copy to Clipboard" feature leveraging ZeroClipboard package.
