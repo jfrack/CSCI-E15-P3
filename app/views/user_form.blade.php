@@ -13,23 +13,23 @@
 <br>
 <div class="form-group">
 	<h3>Options:</h3>
-	{{ Form::checkbox('usrid_cb', '1', isset($_POST['usrid_cb'])?true:false) }}
 	{{ Form::label('usrid_cb', 'User ID', array('class' => 'control-label')) }}
+	{{ Form::checkbox('usrid_cb', '1', isset($_POST['usrid_cb'])?true:false) }}
 	<br>
-	{{ Form::checkbox('pswd_cb', '1', isset($_POST['pswd_cb'])?true:false) }}
 	{{ Form::label('pswd_cb', 'Password', array('class' => 'control-label')) }}
+	{{ Form::checkbox('pswd_cb', '1', isset($_POST['pswd_cb'])?true:false) }}
 	<br>
-	{{ Form::checkbox('email_cb', '1', isset($_POST['email_cb'])?true:false) }}
 	{{ Form::label('email_cb', 'Email', array('class' => 'control-label')) }}
+	{{ Form::checkbox('email_cb', '1', isset($_POST['email_cb'])?true:false) }}
 	<br>
-	{{ Form::checkbox('birth_cb', '1', isset($_POST['birth_cb'])?true:false) }}
 	{{ Form::label('birth_cb', 'Birthdate', array('class' => 'control-label')) }}
+	{{ Form::checkbox('birth_cb', '1', isset($_POST['birth_cb'])?true:false) }}
 	<br>
-	{{ Form::checkbox('profile_cb', '1', isset($_POST['profile_cb'])?true:false) }}
 	{{ Form::label('profile_cb', 'Profile', array('class' => 'control-label')) }}
+	{{ Form::checkbox('profile_cb', '1', isset($_POST['profile_cb'])?true:false) }}
 	<br>
-	{{ Form::checkbox('secimg_cb', '1', isset($_POST['secimg_cb'])?true:false) }}
 	{{ Form::label('secimg_cb', 'Security Image', array('class' => 'control-label')) }}
+	{{ Form::checkbox('secimg_cb', '1', isset($_POST['secimg_cb'])?true:false) }}
 </div>
 <br><br>
 <!--
